@@ -4,6 +4,10 @@ __pycache__/
 *$py.class
 .vscode
 
+# ASR model
+.locks
+models--Systran--faster-whisper-small
+
 # C extensions
 *.so
 
