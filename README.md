@@ -6,7 +6,7 @@
 <div align="center">
   <style>
     img {
-      margin: 60 60px; /* Adiciona um espaço de 10px entre cada imagem */
+      margin: 60 60px;
     }
   </style>
   <img src="https://img.shields.io/badge/status-em%20desenvolvimento-orange" alt="Build Status"> 
