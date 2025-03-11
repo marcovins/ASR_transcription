@@ -1,9 +1,21 @@
-# 🎤 Projeto de Transcrição e Diarização de Áudio
-![Build Status](https://img.shields.io/badge/status-em%20desenvolvimento-orange)
-![Python version](https://img.shields.io/badge/python-3.12-blue)
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Dependencies](https://img.shields.io/badge/Dependencies-Required-brightgreen)
-![Hugging Face](https://img.shields.io/badge/Hugging%20Face-Access-orange)
+<div align="center">
+  <h1>🎤 Projeto de Transcrição e Diarização de Áudio</h1>
+  <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXFyenR0Y3cxbXR1M2c3OGN2bDUyaDdiYmVpMjliZDZyYmM2MmczYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bJ4TVNYNUympPgcpem/giphy.gif" alt="Transcrição em ação">
+</div>
+
+<div align="center">
+  <style>
+    img {
+      margin: 60 60px; /* Adiciona um espaço de 10px entre cada imagem */
+    }
+  </style>
+  <img src="https://img.shields.io/badge/status-em%20desenvolvimento-orange" alt="Build Status"> 
+  <img src="https://img.shields.io/badge/python-3.12-blue" alt="Python version">
+  <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT">
+  <img src="https://img.shields.io/badge/Dependencies-Required-brightgreen" alt="Dependencies">
+  <img src="https://img.shields.io/badge/Hugging%20Face-Access-orange" alt="Hugging Face">
+</div>
+
 
 ## 📌 Descrição
 Este projeto tem como objetivo realizar a extração de áudio de um vídeo, transcrevê-lo utilizando o modelo WhisperX e identificar diferentes falantes (diarização). O resultado final é um arquivo de texto contendo a transcrição organizada e identificada por falante.
@@ -14,8 +26,6 @@ Este projeto tem como objetivo realizar a extração de áudio de um vídeo, tra
 ✅ Diarização para identificar diferentes falantes.  
 ✅ Geração de um arquivo de transcrição formatado.
 
-![Transcrição em ação](https://media.giphy.com/media/3o7btP6rJ0cHk2KElW/giphy.gif)
-![Diarização de falantes](https://media.giphy.com/media/l0HlHk8m94jiyfJp2/giphy.gif)
 
 ## 📂 Estrutura do Projeto
 ```
