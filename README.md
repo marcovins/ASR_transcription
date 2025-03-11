@@ -4,11 +4,6 @@
 </div>
 
 <div align="center">
-  <style>
-    img {
-      margin: 60 60px;
-    }
-  </style>
   <img src="https://img.shields.io/badge/status-em%20desenvolvimento-orange" alt="Build Status"> 
   <img src="https://img.shields.io/badge/python-3.12-blue" alt="Python version">
   <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT">
