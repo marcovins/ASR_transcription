@@ -1,6 +1,6 @@
 # utils/transcription.py
 from utils.imports import whisperx, logging, Union, AlignedTranscriptionResult, TranscriptionResult, DiarizationPipeline, HUGGINGFACE_KEY, assign_word_speakers
-from utils.memory import clean_memory
+from utils.memory import clean_memory, del_wav
 from utils.device import get_device
 
 async def transcribe(audio_path: str, model_path: str = "model", align: bool = False) -> Union[TranscriptionResult, AlignedTranscriptionResult]:
@@ -137,5 +137,6 @@ async def transcribe_with_diarization(audio_path: str, model_path: str = "model"
         diarization = DiarizationPipeline(use_auth_token=HUGGINGFACE_KEY, device=get_device())
         diarize_df = diarization(audio_path)
         transcription = assign_word_speakers(diarize_df, transcription)
+        await del_wav()
         return transcription
     return None
