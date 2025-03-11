@@ -47,7 +47,7 @@ async def clean_memory(device: str, model: Optional[object] = None) -> None:
             # Itera sobre os arquivos na pasta e apaga cada um
             for filename in os.listdir(temp_dir):
                 file_path = os.path.join(temp_dir, filename)
-                if os.path.isfile(file_path):
+                if os.path.isfile(file_path) and not file_path.endswith(".wav"):
                     os.remove(file_path)
                     logging.info(f"🗑️ Arquivo removido: {file_path}")
                 elif os.path.isdir(file_path):
@@ -58,3 +58,26 @@ async def clean_memory(device: str, model: Optional[object] = None) -> None:
             logging.warning(f"A pasta '{temp_dir}' não foi encontrada.")
     except Exception as e:
         logging.error(f"Erro ao limpar a pasta 'temp': {e}")
+
+
+async def del_wav() -> None:
+    """
+    Remove o arquivo de áudio processado (processed_audio.wav) da pasta 'temp'.
+
+    Retorno:
+        None: Apenas remove o arquivo, se existir.
+
+    Exemplo:
+        await del_wav()
+        # Remove o arquivo temp/processed_audio.wav, se existir.
+    """
+    file_path = "temp/processed_audio.wav"
+    
+    try:
+        if os.path.exists(file_path):
+            os.remove(file_path)
+            logging.info(f"🗑️ Arquivo removido: {file_path}")
+        else:
+            logging.warning(f"⚠️ O arquivo '{file_path}' não foi encontrado.")
+    except Exception as e:
+        logging.error(f"Erro ao remover o arquivo '{file_path}': {e}")
