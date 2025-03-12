@@ -1,6 +1,6 @@
 <div align="center">
   <h1>🎤 Projeto de Transcrição e Diarização de Áudio</h1>
-  <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXFyenR0Y3cxbXR1M2c3OGN2bDUyaDdiYmVpMjliZDZyYmM2MmczYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bJ4TVNYNUympPgcpem/giphy.gif" alt="Transcrição em ação">
+  <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWN0MTBwMmFpeGl2cjJmZ2VwZnQweDFleWtyNmkwOHVmeHRxNG4zdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/X0iqiPHFdrEctzDKMU/giphy.gif" alt="Transcrição em ação">
 </div>
 
 <div align="center">
