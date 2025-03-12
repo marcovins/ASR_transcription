@@ -25,7 +25,6 @@ Este projeto tem como objetivo realizar a extração de áudio de um vídeo, tra
 ## 📂 Estrutura do Projeto
 ```
 /
-│   .env
 │   .gitignore
 │   ffmpeg.exe
 │   ffplay.exe
@@ -34,10 +33,7 @@ Este projeto tem como objetivo realizar a extração de áudio de um vídeo, tra
 │   main.py
 │   README.md
 │   requirements.txt
-│
-├───.vscode
-│       launch.json
-│
+││
 ├───cache
 │       removePycache.ps1
 │
