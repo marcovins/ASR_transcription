@@ -1,6 +1,6 @@
 <div align="center">
   <h1>🎤 Projeto de Transcrição e Diarização de Áudio</h1>
-  <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWN0MTBwMmFpeGl2cjJmZ2VwZnQweDFleWtyNmkwOHVmeHRxNG4zdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/X0iqiPHFdrEctzDKMU/giphy.gif" alt="Transcrição em ação">
+  <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXFyenR0Y3cxbXR1M2c3OGN2bDUyaDdiYmVpMjliZDZyYmM2MmczYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bJ4TVNYNUympPgcpem/giphy.gif" alt="Transcrição em ação">
 </div>
 
 <div align="center">
@@ -70,11 +70,11 @@ Este projeto tem como objetivo realizar a extração de áudio de um vídeo, tra
 ```
 
 ## 🔧 Requisitos
-🛠 Python 3.12 ou superior.
-🛠 Dependências: Instale as bibliotecas necessárias listadas no arquivo `requirements.txt`.
-🛠 WhisperX: Biblioteca para transcrição de áudio.
-🛠 MoviePy e Pydub: Para manipulação de áudio e vídeo.
-🛠 Chave da Hugging Face: Necessária para acessar modelos pré-treinados.
+🛠 Python 3.12 ou superior.<br>
+🛠 Dependências: Instale as bibliotecas necessárias listadas no arquivo `requirements.txt`.<br>
+🛠 WhisperX: Biblioteca para transcrição de áudio.<br>
+🛠 MoviePy e Pydub: Para manipulação de áudio e vídeo.<br>
+🛠 Chave da Hugging Face: Necessária para acessar modelos pré-treinados.<br>
 
 ## 📥 Instalação
 1️⃣ Clone o repositório:
